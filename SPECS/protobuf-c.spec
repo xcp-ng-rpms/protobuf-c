@@ -49,8 +49,6 @@ make check
 %make_install
 rm -vf $RPM_BUILD_ROOT/%{_libdir}/libprotobuf-c.la
 
-%ldconfig_scriptlets
-
 %files
 %{_libdir}/libprotobuf-c.so.*
 %doc TODO LICENSE ChangeLog
