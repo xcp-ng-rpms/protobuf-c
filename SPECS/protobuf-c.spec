@@ -1,6 +1,8 @@
+# XCP-ng: imported from Fedora 30
+
 Name:           protobuf-c
 Version:        1.3.1
-Release:        2%{?dist}
+Release:        2.1%{?dist}
 Summary:        C bindings for Google's Protocol Buffers
 
 License:        BSD
@@ -65,6 +67,9 @@ rm -vf $RPM_BUILD_ROOT/%{_libdir}/libprotobuf-c.la
 %{_libdir}/pkgconfig/libprotobuf-c.pc
 
 %changelog
+* Fri Dec 20 2019 Samuel Verschelde <stormi-xcp@ylix.fr> - 1.3.1-2.1
+- Rebuild for XCP-ng 8.1
+
 * Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 1.3.1-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
 
