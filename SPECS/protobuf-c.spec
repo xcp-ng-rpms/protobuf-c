@@ -2,7 +2,7 @@
 
 Name:           protobuf-c
 Version:        1.3.1
-Release:        2.1%{?dist}
+Release:        2.2%{?dist}
 Summary:        C bindings for Google's Protocol Buffers
 
 License:        BSD
@@ -67,6 +67,9 @@ rm -vf $RPM_BUILD_ROOT/%{_libdir}/libprotobuf-c.la
 %{_libdir}/pkgconfig/libprotobuf-c.pc
 
 %changelog
+* Tue Jun 30 2020 Samuel Verschelde <stormi-xcp@ylix.fr> - 1.3.1-2.2
+- Rebuild for XCP-ng 8.2
+
 * Fri Dec 20 2019 Samuel Verschelde <stormi-xcp@ylix.fr> - 1.3.1-2.1
 - Rebuild for XCP-ng 8.1
 
